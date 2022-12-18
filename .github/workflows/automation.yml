@@ -53,7 +53,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'hgruhl-assignment-prod-fe'
+          app-name: 'hgruhl-assignment-fe-pr'
           package: .
 
   deploy-dev:
@@ -78,5 +78,5 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'hgruhl-assignment-dev-fe'
+          app-name: 'hgruhl-assignment-fe-pr'
           package: .
