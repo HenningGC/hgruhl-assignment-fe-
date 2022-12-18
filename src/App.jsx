@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -23,7 +23,7 @@ const App = () => (
           </li>
         </ul>
       </nav>
-      <Switch>
+      <Routes>
         <Route exact path="/">
           <RecipeList />
         </Route>
@@ -33,7 +33,7 @@ const App = () => (
         <Route path="/:id">
           <RecipeDetail />
         </Route>
-      </Switch>
+      </Routes>
     </div>
   </Router>
 );
