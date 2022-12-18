@@ -41,3 +41,5 @@ const RecipeForm = () => {
     </form>
   );
 }
+
+export default RecipeForm;
