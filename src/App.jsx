@@ -8,7 +8,7 @@ import {
 
 import RecipeDetail from './components/RecipeDetail';
 import RecipeList from './components/RecipeList';
-import RecipeDetail from './components/RecipeDetail';
+import RecipeForm from './components/RecipeForm';
 
 const App = () => (
   <Router>
